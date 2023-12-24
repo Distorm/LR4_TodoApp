@@ -1,24 +1,25 @@
 <resources>
     <string name="app_name">ToDo</string>
     <string name="contentDescription">Кнопка</string>
-    <string name="no_data">Нет данных!</string>
+    <string name="no_data">Нет задач )</string>
     <string name="title">Заголовок</string>
     <string name="description">Описание</string>
     <string name="search">Поиск</string>
-    <string name="sort_by">Сортировать</string>
+    <string name="sort_by">Сортировка по</string>
     <string name="priority_high">Высокий приоритет</string>
     <string name="priority_low">Низкий приоритет</string>
     <string name="delete_all">Удалить все</string>
     <string name="add">Добавить</string>
     <string name="save">Сохранить</string>
     <string name="delete">Удалить</string>
-    <string name="last_updated">Дата обнавления</string>
+    <string name="last_updated">Обновлено</string>
     <string name="select_priority">Выбрать приоритет</string>
+    <string name="load_start_fragment">Загрузка данных, подождите --___--</string>
 
 
     <string-array name="priorities">
         <item>Высокий приоритет</item>
+        <item>Средний приоритет</item>
         <item>Низкий приоритет</item>
-        <item>Не критично</item>
     </string-array>
 </resources>

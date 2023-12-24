@@ -27,8 +27,8 @@
     <fragment
         android:id="@+id/addFragment"
         android:name="com.example.todo.fragments.add.AddFragment"
-        android:label="Add"
-        tools:layout="@layout/fragment_add" >
+        android:label="@string/add"
+        tools:layout="@layout/fragment_add">
         <action
             android:id="@+id/action_addFragment_to_listFragment"
             app:destination="@id/listFragment"
@@ -40,7 +40,7 @@
     <fragment
         android:id="@+id/updateFragment"
         android:name="com.example.todo.fragments.update.UpdateFragment"
-        android:label="Update"
+        android:label="@string/last_updated"
         tools:layout="@layout/fragment_update">
         <action
             android:id="@+id/action_updateFragment_to_listFragment"
